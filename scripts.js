@@ -15,8 +15,9 @@ function validateForm() {
     if (name.value === '' || email.value === '') {
         alert('Please fill out all required fields.');
         return false;
+    } else {
+        return true;
     }
-    return true;
 }
 
 // Projects: toggle visibility of a project description paragraph
