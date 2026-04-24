@@ -16,7 +16,8 @@ function validateForm() {
         alert('Please fill out all required fields.');
         return false;
     } else {
-        return true;
+        alert('Your message has been sent successfully!');
+        return false;
     }
 }
 
