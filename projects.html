@@ -22,6 +22,7 @@
 <h1>My Projects</h1>
 <p>Here are two projects I worked on.</p>
 
+<article>
 <figure>
 <img src="images/Project_1.jpeg" alt="CropTech vertical farming startup" width="400">
 <figcaption>CropTech - a vertical farming startup I founded</figcaption>
@@ -29,10 +30,13 @@
 <h2>CropTech</h2>
 <p>Type: Vertical Farming Startup</p>
 <p>Date: <time datetime="2023">2023</time></p>
-<p>I founded CropTech to use technology to improve farming in Saudi Arabia. The startup uses vertical farming to grow crops more efficiently with less water and land. We got accepted into the Ministry of Agriculture accelerator and secured SAR 150,000 in funding. We also formed 3 strategic partnerships to help grow the business.</p>
+<p id="croptech-desc">I founded CropTech to use technology to improve farming in Saudi Arabia. The startup uses vertical farming to grow crops more efficiently with less water and land. We got accepted into the Ministry of Agriculture accelerator and secured SAR 150,000 in funding. We also formed 3 strategic partnerships to help grow the business.</p>
+<button onclick="toggleDescription('croptech-desc')">Toggle Description</button>
+</article>
 
 <hr>
 
+<article>
 <figure>
 <img src="images/Project_2.jpeg" alt="Rela worker housing platform" width="400">
 <figcaption>Rela - a digital platform for worker housing management</figcaption>
@@ -40,7 +44,9 @@
 <h2>Rela</h2>
 <p>Type: Digital Platform for Worker Housing in Saudi Arabia</p>
 <p>Date: <time datetime="2025">2025</time></p>
-<p>Rela is a platform that makes worker housing simple for companies. Instead of dealing with brokers and scattered operations, companies can book verified and fully equipped housing units through one digital platform. Rela handles everything including daily maintenance, transport scheduling, and catering. The platform gives companies a single dashboard to manage rooms, contracts, workers, and payments in one place.</p>
+<p id="rela-desc">Rela is a platform that makes worker housing simple for companies. Instead of dealing with brokers and scattered operations, companies can book verified and fully equipped housing units through one digital platform. Rela handles everything including daily maintenance, transport scheduling, and catering. The platform gives companies a single dashboard to manage rooms, contracts, workers, and payments in one place.</p>
+<button onclick="toggleDescription('rela-desc')">Toggle Description</button>
+</article>
 
 <a href="#top">Back to Top</a>
 
@@ -51,5 +57,6 @@
 <p>&copy; 2026 Salman Aljebreen</p>
 </footer>
 
+<script src="scripts.js"></script>
 </body>
 </html>
